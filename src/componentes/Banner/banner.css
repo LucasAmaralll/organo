@@ -1,8 +1,10 @@
+/* Estilos para a classe 'banner' */
 .banner {
-    background-color: #6278F7;
-    text-align: center;
+    background-color: #6278F7;  /* Define a cor de fundo do banner como azul */
+    text-align: center;         /* Centraliza o conteúdo do banner horizontalmente */
 }
 
+/* Estilos para a imagem dentro da classe 'banner' */
 .banner img {
-    max-width: 100%;
+    max-width: 100%;  /* Garante que a largura da imagem não ultrapasse 100% do contêiner pai */
 }

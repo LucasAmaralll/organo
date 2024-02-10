@@ -1,13 +1,15 @@
+/* Estilos para a classe 'formulario' */
 .formulario {
-    display: flex;
-    justify-content: center;
-    margin: 80px 0;
+    display: flex;            /* Define um contêiner flexível para os elementos internos */
+    justify-content: center;  /* Centraliza os itens ao longo do eixo principal (horizontal) */
+    margin: 80px 0;           /* Define margens superior e inferior de 80 pixels, sem margens laterais */
 }
 
+/* Estilos para o formulário dentro da classe 'formulario' */
 .formulario form {
-    max-width: 80%;
-    background-color: #F2F2F2;
-    border-radius: 20px;
-    padding: 36px 64px;
-    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.08);
+    max-width: 80%;                  /* Define a largura máxima do formulário como 80% da largura do contêiner pai */
+    background-color: #F2F2F2;       /* Define a cor de fundo como cinza claro */
+    border-radius: 20px;             /* Adiciona bordas arredondadas com raio de 20 pixels */
+    padding: 36px 64px;              /* Adiciona preenchimento interno de 36 pixels (superior e inferior) e 64 pixels (esquerda e direita) */
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.08);  /* Adiciona uma sombra suave ao formulário */
 }

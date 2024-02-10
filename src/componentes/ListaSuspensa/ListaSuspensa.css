@@ -1,0 +1,17 @@
+/* Estilos para o rótulo (label) dentro da classe 'lista-suspensa' */
+.lista-suspensa label {
+    display: block;      /* Exibe o rótulo como bloco, ocupando toda a largura disponível */
+    margin-bottom: 8px;  /* Adiciona uma margem inferior de 8 pixels para separação */
+    font-size: 24px;     /* Define o tamanho da fonte como 24 pixels */
+}
+
+/* Estilos para o elemento de seleção (dropdown) dentro da classe 'lista-suspensa' */
+.lista-suspensa select {
+    background-color: #fff;  /* Define a cor de fundo como branco */
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);  /* Adiciona uma sombra suave */
+    width: 100%;           /* Define a largura como 100% da largura do contêiner pai */
+    border: none;          /* Remove a borda padrão do elemento de seleção */
+    font-size: 24px;       /* Define o tamanho da fonte como 24 pixels */
+    padding: 24px;         /* Adiciona preenchimento interno de 24 pixels */
+    box-sizing: border-box; /* Garante que o preenchimento e a borda não afetem a largura total do elemento */
+}

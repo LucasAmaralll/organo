@@ -1,20 +1,22 @@
+/* Estilos para a classe 'campo-texto' */
 .campo-texto {
-    margin: 24px 0;
-
+    margin: 24px 0;  /* Adiciona margens superior e inferior de 24 pixels para separação */
 }
 
+/* Estilos para o rótulo (label) dentro da classe 'campo-texto' */
 .campo-texto label {
-    display: block;
-    margin-bottom: 8px;
-    font-size: 24px;
+    display: block;      /* Exibe o rótulo como bloco, ocupando toda a largura disponível */
+    margin-bottom: 8px;  /* Adiciona uma margem inferior de 8 pixels para separação entre o rótulo e o campo de entrada */
+    font-size: 24px;     /* Define o tamanho da fonte como 24 pixels */
 }
 
+/* Estilos para o campo de entrada de texto (input) dentro da classe 'campo-texto' */
 .campo-texto input {
-    background-color: #fff;
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
-    width: 100%;
-    border: none;
-    font-size: 24px;
-    padding: 24px;
-    box-sizing: border-box;
+    background-color: #fff;  /* Define a cor de fundo como branco */
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);  /* Adiciona uma sombra suave ao campo de entrada */
+    width: 100%;           /* Define a largura como 100% da largura do contêiner pai */
+    border: none;          /* Remove a borda padrão do campo de entrada */
+    font-size: 24px;       /* Define o tamanho da fonte como 24 pixels */
+    padding: 24px;         /* Adiciona preenchimento interno de 24 pixels */
+    box-sizing: border-box; /* Garante que o preenchimento e a borda não afetem a largura total do campo de entrada */
 }
