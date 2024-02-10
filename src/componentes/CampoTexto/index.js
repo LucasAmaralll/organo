@@ -13,8 +13,8 @@ function CampoTexto(props) {
                 {props.label}
             </label>
             
-            {/* Campo de entrada de texto (input) com o placeholder baseado na propriedade 'placeholder' */}
-            <input placeholder={props.placeholder} />
+            {/* Campo de entrada de texto (input) com o placeholder baseado na propriedade 'placeholder' e a propriedade 'required' para indicar se o campo é obrigatório */}
+            <input required={props.obrigatorio} placeholder={props.placeholder} />
         </div>
     );
 }

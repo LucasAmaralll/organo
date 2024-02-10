@@ -1,0 +1,17 @@
+/* Estilos para a classe 'botao' */
+.botao {
+    background-color: #6278f7;  /* Define a cor de fundo do botão como azul */
+    border-radius: 10px;       /* Adiciona bordas arredondadas com raio de 10 pixels */
+    font-weight: 700;          /* Define a espessura da fonte como negrito */
+    font-size: 18px;           /* Define o tamanho da fonte como 18 pixels */
+    padding: 32px;             /* Adiciona preenchimento interno de 32 pixels */
+    border: none;              /* Remove a borda padrão do botão */
+    cursor: pointer;           /* Adiciona uma seta ao cursor para indicar que é clicável */
+    color: #fff;               /* Define a cor do texto como branco */
+    margin: 32px 0;            /* Adiciona margens superior e inferior de 32 pixels para separação */
+}
+
+/* Estilos para o efeito hover do botão */
+.botao:hover {
+    color: #95ffd4;  /* Altera a cor do texto para verde claro quando o botão é hover */
+}
